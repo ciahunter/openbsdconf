@@ -1,0 +1,85 @@
+sticky yes
+snapdist 15
+
+borderwidth 1
+
+color activeborder 00ff00
+color inactiveborder 252525
+
+color menufg ffffff
+color menubg 252525
+
+fontname "dina:pixelsize=12:antialias=false:autohint=false"
+
+vtile 55
+
+unbind-key all
+
+bind-key S-j window-cycle-ingroup
+bind-key S-k window-rcycle-ingroup
+
+moveamount 30
+
+bind-key M-k window-move-up
+bind-key M-j window-move-down
+bind-key M-h window-move-left
+bind-key M-l window-move-right
+
+bind-key MS-k window-resize-up
+bind-key MS-j window-resize-down
+bind-key MS-h window-resize-left
+bind-key MS-l window-resize-right
+
+bind-key MS-Return st
+
+bind-key M-q "firefox"
+
+bind-key MS-c window-close
+
+bind-key M-1 group-only-1
+bind-key M-2 group-only-2
+bind-key M-3 group-only-3
+bind-key M-4 group-only-4
+bind-key M-5 group-only-5
+bind-key M-6 group-only-6
+bind-key M-7 group-only-7
+bind-key M-8 group-only-8
+bind-key M-9 group-only-9
+
+bind-key MS-1 window-movetogroup-1
+bind-key MS-2 window-movetogroup-2
+bind-key MS-3 window-movetogroup-3
+bind-key MS-4 window-movetogroup-4
+bind-key MS-5 window-movetogroup-5
+bind-key MS-6 window-movetogroup-6
+bind-key MS-7 window-movetogroup-7
+bind-key MS-8 window-movetogroup-8
+bind-key MS-9 window-movetogroup-9
+
+bind-key M-0 group-toggle-all
+
+bind-key MS-0 window-stick
+
+bind-key M-f window-maximize
+
+bind-key M-Return window-vtile
+
+bind-key M-p menu-cmd
+
+unbind-mouse all
+
+bind-mouse M-1 window-move
+bind-mouse M-3 window-resize
+bind-mouse M-2 window-lower
+
+command MINECRAFT "Blockgame"
+command TOR "tor-browser"
+command LOCK "pkill -USR1 xidle"
+command TERMINAL "st"
+command RSS "/home/son/Scripts/rss"
+command RSS_UPDATE "st -e sfeed_update"
+command WEB "firefox"
+
+#ignore bar 
+#autogroup 0 bar
+#gap 16 0 0 0
